@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registeration form</title>
+</head>
+<body>
+    <form action="">
+    <table>
+      <caption><h2>Registration Form</h2></caption>
+      <tr>
+        <td>Full name</td>
+        <td><input type="text" placeholder="Enter Name" name="fullname"></td>
+      </tr>
+      <tr>
+        <td>DOB</td>
+        <td><input type="date" placeholder="Enter age" max="2026-05-06" min="1940-01-01" name="dob"></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td><input type="email" name="email"></td>
+      </tr> 
+      <tr>
+        <td>Mobile</td>
+        <td><input type="number" name="mobile"></td>
+      </tr>
+      <tr>
+        <td>Weight</td>
+        <td><input type="number" min="1" max="150" name="weight"></td>
+      </tr>
+
+        <tr>
+          <td>Gender</td>
+          <td><input type="radio" name="Gender" value="male">Male
+            <input type="radio" name="Gender" value="female">Female
+            <input type="radio" name="Gender" value="others">Others
+          </td>
+        </tr>
+        <tr>
+          <td>Courses</td>
+          <td>
+            <input type="checkbox" name="courses" value="java">Java
+            <input type="checkbox" name="courses" value="python">Python
+            <input type="checkbox" name="courses" value="cpp">C++
+            <input type="checkbox" name="courses" value="js">Javascript
+          </td>
+        </tr>
+
+        <tr>
+          <td>Location</td>
+          <td>
+            <select name="location" id="">
+              <option value="">Select Location</option>
+              <option value="mum">Mumbai</option>
+              <option value="pune">Pune</option>
+              <option value="del">Delhi</option>
+              <option value="banglore">Bangalore</option>
+              <option value="kol">kolkata</option>
+            </select>
+          </td>
+        </tr>
+
+      <tr>
+        <td>Password</td>
+        <td><input type="password" name="pass"></td>
+      </tr>
+      <tr>
+         <td>Confirm Password</td>
+        <td><input type="password" name="cpass"></td>
+      </tr>
+
+      <tr>
+        <td>Address</td>
+        <td><textarea name="address" id=""></textarea></td>
+      </tr>
+
+      
+      <tr>
+        <th colspan="2"><input type="submit" value="Register"></th>
+      </tr>
+      
+    </table>
+    </form>
+</body>
+</html>
